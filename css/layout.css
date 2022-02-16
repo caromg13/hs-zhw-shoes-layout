@@ -25,3 +25,40 @@
 /* Positioning Classes */
 
 
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 12px 12px 0px 0px;
+}
+
+.column_left {
+  float: left;
+  width: 66.15%;
+  padding: 0px 8px 0px 0px;
+}
+
+.column_right {
+  float: right;
+  width: 33.3%;
+  padding: 0px 12px 0px 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column_left {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column_right {
+    width: 100%;
+  }
+}
+
+
